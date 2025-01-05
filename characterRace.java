@@ -1,4 +1,7 @@
 
+import java.util.Arrays;
+
+
 
 
 public class characterRace {
@@ -8,11 +11,13 @@ public class characterRace {
 
     public characterRace(String race) {
         this.race = race;
+        setRace();
+        System.out.println("Your race is " + this.race + ", and your stat modifiers are " + Arrays.toString(this.mods));
     }
 
 
-    public void setRace() {
-        switch (race) {
+    private void setRace() {
+        switch (this.race) {
             case "Human", "human" -> {
                 setMods(1, 1, 1, 1, 1, 1);
                 this.moveSpeed = 30;
