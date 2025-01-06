@@ -1,9 +1,9 @@
 public abstract class ClassGen {
-    public void creation(int level){
+    public ClassGen(int level){
         setAbilities();
     } 
 
-    public void setAbilities(){
-        
+    public static void setAbilities(){
+
     }
 }
