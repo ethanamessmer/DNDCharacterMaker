@@ -18,35 +18,35 @@ public class characterRace {
 
     private void setRace() {
         switch (this.race) {
-            case "Human", "human" -> {
+            case "Human" -> {
                 setMods(1, 1, 1, 1, 1, 1);
                 this.moveSpeed = 30;
             }
-            case "Elf", "elf" -> {
+            case "Elf" -> {
                 setMods(0, 2, 0, 1, 0, 0);
                 this.moveSpeed = 30;
             }
-            case "Dwarf", "dwarf" -> {
+            case "Dwarf" -> {
                 setMods(0, 0, 2, 0, 1, 0);
                 this.moveSpeed = 20;
             }
-            case "Tiefling", "tiefling" -> {
+            case "Tiefling" -> {
                 setMods(0, 0, 0, 1, 0, 2);
                 this.moveSpeed = 30;
             }
-            case "Halfling", "halfling" -> {
+            case "Halfling" -> {
                 setMods(0, 2, 0, 0, 0, 1);
                 this.moveSpeed = 20;
             }
-            case "Dragonborn", "dragonborn" -> {
+            case "Dragonborn" -> {
                 setMods(2, 0, 0, 0, 0, 1);
                 this.moveSpeed = 30;
             }
-            case "Gnome", "gnome" -> {
+            case "Gnome" -> {
                 setMods(0, 1, 0, 2, 0, 0);
                 this.moveSpeed = 20;
             }
-            case "Half-Orc", "half-orc" -> {
+            case "Half-Orc" -> {
                 setMods(2, 0, 1, 0, 0, 0);
                 this.moveSpeed = 30;
             }
