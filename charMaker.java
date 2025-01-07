@@ -1,5 +1,7 @@
 import java.util.Scanner;
 //import C:\Users\EMessy\OneDrive\Desktop\Github\DND\DNDCharacterMaker\Classes;
+enum Stats { STR, DEX, CON, INT, WIS, CHA };
+
 class charMaker {
     public static void main(String[] args) {
         System.out.println("Hello there! Welcome to version 1.0 of the basic DND character creator!");
@@ -25,6 +27,11 @@ class charMaker {
         System.out.println("Please select your race");
         System.out.println("The options are Human, Elf, Dwarf, Tiefling, Halfling, Dragonborn, Gnome, or Half-Orc");
         characterRace charRace = new characterRace(scnr.nextLine());
+
+
+        //Stats
+        System.out.println("Rolling stats. . . ");  
+
 
     }
 
