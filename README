@@ -1,9 +1,84 @@
-This is for fun and to practice my Java, all descriptions for classes and such I took from DND beyond. 
+D&D Character Creator
+
+Overview
+
+The D&D Character Creator is a terminal-based Java application designed to help players generate characters for Dungeons & Dragons. This project serves as a fun and interactive tool for creating unique D&D characters while allowing me to deepen my understanding of Java programming. The character creation process includes selecting classes, races, and rolling for stats using official D&D rules, with a modular and extensible design for future updates.
 
 
 
-This project is a fan-made tool created for educational and personal use. I do not own or claim ownership of any Dungeons & Dragons-related content, trademarks, or intellectual property. All rights to Dungeons & Dragons, including character classes, races, and related terminology, are owned by Wizards of the Coast LLC.
+Features
+
+- Class and Race Selection: 
+  - Choose from iconic D&D classes (e.g., Barbarian, Wizard) and races (e.g., Human, Elf, Tiefling).  
+  - Each class and race is implemented using a modular and extensible structure.
+
+- Stat Generation:
+  - Rolls for stats using the standard D&D method: roll 4 six-sided dice, drop the lowest roll, and sum the rest.  
+
+- Modularity:
+  - The project is designed to be highly modular, with individual classes for character race, class, and stats.  
+  - An abstract class (`ClassGen`) serves as a template for specific class implementations.
+
+- Extensibility:
+  - Future updates will include additional features like multiclassing, random name generation, adding equipment and possibly a graphical user interface (GUI) using Java Swing. (These are all just when I have time to work on this)
+
+Why I Built This
+
+This project was created for both fun and as a learning exercise to:
+- Strengthen my understanding of Java.
+- Demonstrate advanced Java concepts like abstraction, inheritance, and encapsulation.
+- Practice modular design principles for scalability and maintainability.
+
+
+
+Technologies Used
+
+- Programming Language: Java  
+- Development Environment: Visual Studio Code  
+- Libraries: Built-in Java libraries (e.g., `java.util.Scanner`, `java.util.Random`, `java.util.Arrays`).
+
+
+Installation and Usage
+
+Prerequisites
+- [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) installed.  
+- A terminal or IDE (e.g., Visual Studio Code) to run the program.
+
+Steps
+1. Clone the repository:  
+   git clone https://github.com/ethanamessmer/DNDCharacterMaker.git
+   
+2. Navigate to the project directory:
+   bash
+   cd DnD-Character-Creator
+   
+3. Compile the Java files:
+   
+   javac *.java Classes/*.java
+   
+4. Run the program:
+   1. navigate to charMaker in bash
+   2. run - java charMaker
+
+Planned Features
+
+- Random Name Generation: Automatically create names based on race and class.  
+- Multiclassing: Support for characters with multiple classes.  
+- Equipment: Adding equipment such as weapons, armor and others hopefully from a DB.
+- Graphical Interface: Replace terminal input with a Java Swing-based GUI.  
+- Save and Load Characters**: Persist character data for future sessions.
+
+
+*Disclaimer*
+
+This project is a fan-made tool created for educational and personal use. I do not own or claim ownership of any Dungeons & Dragons-related content, trademarks, or intellectual property. All rights to Dungeons & Dragons, including character classes, races, and related terminology, are owned by **Wizards of the Coast LLC**.
 
 This tool is not affiliated with, endorsed by, or sponsored by Wizards of the Coast LLC. It is intended solely as a tribute to the game and for non-commercial purposes.
 
-If there are any issues or concerns, please contact me, and I will address them promptly.
+
+Contact
+
+If you have any questions or feedback, feel free to reach out:  
+Name: Ethan Messmer  
+Email: Ethanamessmer@gmail.com
+
