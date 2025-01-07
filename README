@@ -2,7 +2,9 @@ D&D Character Creator
 
 Overview
 
-The D&D Character Creator is a terminal-based Java application designed to help players generate characters for Dungeons & Dragons. This project serves as a fun and interactive tool for creating unique D&D characters while allowing me to deepen my understanding of Java programming. The character creation process includes selecting classes, races, and rolling for stats using official D&D rules, with a modular and extensible design for future updates.
+The D&D Character Creator is a terminal-based Java application designed to help players generate characters for Dungeons & Dragons. This project serves as a fun and interactive tool for 
+creating unique D&D characters while allowing me to deepen my understanding of Java programming. The character creation process includes selecting classes, races, and rolling for stats 
+using official D&D rules, with a modular and extensible design for future updates.
 
 
 
@@ -20,7 +22,8 @@ Features
   - An abstract class (`ClassGen`) serves as a template for specific class implementations.
 
 - Extensibility:
-  - Future updates will include additional features like multiclassing, random name generation, adding equipment and possibly a graphical user interface (GUI) using Java Swing. (These are all just when I have time to work on this)
+  - Future updates will include additional features like multiclassing, random name generation, adding equipment and possibly a graphical user interface (GUI) using Java Swing. 
+    (These are all just when I have time to work on this)
 
 Why I Built This
 
